@@ -194,7 +194,7 @@ public function testNotifySendsEmailToUser(): void
 
 ## Persistent Agent Memory
 
-You have a persistent memory directory at `/Users/joshua/.claude/agent-memory/phpunit-test-writer/`. Its contents persist across conversations.
+You have a persistent memory directory at `~/.claude/agent-memory/phpunit-test-writer/`. Its contents persist across conversations.
 
 Consult your memory files as you work. Record useful patterns you discover:
 - Project-specific test conventions and base classes
