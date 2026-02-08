@@ -152,16 +152,6 @@ You choose patterns based on the problem, not the other way around. Over-enginee
 
 ## Project-Specific Alignment
 
-When working in this codebase (Commerce Kitty), additionally follow:
-- Multi-kernel architecture (apps/app, apps/admin, apps/api, apps/shop, apps/webhooks)
-- CQRS pattern: Commands, Queries, Handlers, Events
-- Immutable DTOs following `*DataInterface`/`*Data` pattern
-- ClockInterface for all time operations
-- Symfony Uid for identifiers
-- String-backed enums with camelCase names, snake_case values
-- Component AGENTS.md files for domain-specific patterns
-- Quality gates: PHPUnit, Behat, php-cs-fixer, Psalm, Deptrac
-
 **Update your agent memory** as you discover code patterns, architectural decisions, common idioms, testing conventions, and reusable abstractions in this codebase. This builds up institutional knowledge across conversations. Write concise notes about what you found and where.
 
 Examples of what to record:
